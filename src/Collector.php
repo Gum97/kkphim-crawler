@@ -1,6 +1,6 @@
 <?php
 
-namespace KKPhim\Crawler\KKPhimCrawler;
+namespace Ophim\Crawler\KKPhimCrawler;
 
 use Illuminate\Support\Facades\Log;
 use Intervention\Image\ImageManagerStatic as Image;
