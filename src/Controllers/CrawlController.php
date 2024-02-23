@@ -1,13 +1,13 @@
 <?php
 
-namespace KKPhim\Crawler\KKPhimCrawler\Controllers;
+namespace Ophim\Crawler\KKPhimCrawler\Controllers;
 
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
-use KKPhim\Crawler\KKPhimCrawler\Crawler;
+use Ophim\Crawler\KKPhimCrawler\Crawler;
 use Ophim\Core\Models\Movie;
 
 /**
