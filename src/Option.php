@@ -1,6 +1,6 @@
 <?php
 
-namespace KKPhim\Crawler\KKPhimCrawler;
+namespace Ophim\Crawler\KKPhimCrawler;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Support\Facades\Cache;
