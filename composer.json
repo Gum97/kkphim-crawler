@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KKPhim\\Crawler\\KKPhimCrawler\\KKPhimCrawlerServiceProvider"
+                "Ophim\\Crawler\\KKPhimCrawler\\KKPhimCrawlerServiceProvider"
             ]
         }
     },
