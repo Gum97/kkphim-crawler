@@ -23,10 +23,10 @@ class KKPhimCrawlerServiceProvider extends SP
     {
 
         config(['plugins' => array_merge(config('plugins', []), [
-            'haiau009/kkphim-crawler' =>
+            'gum97/kkphim-crawler' =>
             [
                 'name' => 'KKPhim Crawler',
-                'package_name' => 'haiau009/kkphim-crawler',
+                'package_name' => 'gum97/kkphim-crawler',
                 'icon' => 'la la-hand-grab-o',
                 'entries' => [
                     ['name' => 'Crawler', 'icon' => 'la la-hand-grab-o', 'url' => backpack_url('/plugin/kkphim-crawler')],
