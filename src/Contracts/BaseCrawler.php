@@ -1,6 +1,6 @@
 <?php
 
-namespace KKPhim\Crawler\KKPhimCrawler\Contracts;
+namespace Ophim\Crawler\KKPhimCrawler\Contracts;
 
 abstract class BaseCrawler
 {
