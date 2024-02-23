@@ -2,14 +2,14 @@
 
 namespace KKPhim\Crawler\KKPhimCrawler;
 
-use KKPhim\Core\Models\Movie;
+use Ophim\Core\Models\Movie;
 use Illuminate\Support\Str;
-use KKPhim\Core\Models\Actor;
-use KKPhim\Core\Models\Category;
-use KKPhim\Core\Models\Director;
-use KKPhim\Core\Models\Episode;
-use KKPhim\Core\Models\Region;
-use KKPhim\Core\Models\Tag;
+use Ophim\Core\Models\Actor;
+use Ophim\Core\Models\Category;
+use Ophim\Core\Models\Director;
+use Ophim\Core\Models\Episode;
+use Ophim\Core\Models\Region;
+use Ophim\Core\Models\Tag;
 use KKPhim\Crawler\KKPhimCrawler\Contracts\BaseCrawler;
 
 class Crawler extends BaseCrawler
