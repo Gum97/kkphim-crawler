@@ -1,11 +1,11 @@
 <?php
 
-namespace KKPhim\Crawler\KKPhimCrawler;
+namespace Ophim\Crawler\KKPhimCrawler;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as SP;
-use KKPhim\Crawler\KKPhimCrawler\Console\CrawlerScheduleCommand;
-use KKPhim\Crawler\KKPhimCrawler\Option;
+use Ophim\Crawler\KKPhimCrawler\Console\CrawlerScheduleCommand;
+use Ophim\Crawler\KKPhimCrawler\Option;
 
 class KKPhimCrawlerServiceProvider extends SP
 {
