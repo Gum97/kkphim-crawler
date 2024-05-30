@@ -1,11 +1,11 @@
 <?php
 
-namespace Ophim\Crawler\KKPhimCrawler;
+namespace KKPhim\Crawler\KKPhimCrawler;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as SP;
-use Ophim\Crawler\KKPhimCrawler\Console\CrawlerScheduleCommand;
-use Ophim\Crawler\KKPhimCrawler\Option;
+use KKPhim\Crawler\KKPhimCrawler\Console\CrawlerScheduleCommand;
+use KKPhim\Crawler\KKPhimCrawler\Option;
 
 class KKPhimCrawlerServiceProvider extends SP
 {
@@ -27,7 +27,7 @@ class KKPhimCrawlerServiceProvider extends SP
             [
                 'name' => 'KKPhim Crawler',
                 'package_name' => 'gum97/kkphim-crawler',
-                'icon' => 'la la-hand-grab-o',
+                'icon' => 'la la-code-fork',
                 'entries' => [
                     ['name' => 'Crawler', 'icon' => 'la la-hand-grab-o', 'url' => backpack_url('/plugin/kkphim-crawler')],
                     ['name' => 'Option', 'icon' => 'la la-cog', 'url' => backpack_url('/plugin/kkphim-crawler/options')],
@@ -36,9 +36,9 @@ class KKPhimCrawlerServiceProvider extends SP
         ])]);
 
         config(['logging.channels' => array_merge(config('logging.channels', []), [
-            'kkphim-crawler' => [
+            'ophim-crawler' => [
                 'driver' => 'daily',
-                'path' => storage_path('logs/haiau009/kkphim-crawler.log'),
+                'path' => storage_path('logs/hacoidev/kkphim-crawler.log'),
                 'level' => env('LOG_LEVEL', 'debug'),
                 'days' => 7,
             ],

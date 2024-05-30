@@ -1,12 +1,12 @@
 <?php
 
-namespace Ophim\Crawler\KKPhimCrawler\Console;
+namespace KKPhim\Crawler\KKPhimCrawler\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Http;
-use Ophim\Crawler\KKPhimCrawler\Crawler;
-use Ophim\Crawler\KKPhimCrawler\Option;
+use KKPhim\Crawler\KKPhimCrawler\Crawler;
+use KKPhim\Crawler\KKPhimCrawler\Option;
 
 class CrawlerScheduleCommand extends Command
 {
